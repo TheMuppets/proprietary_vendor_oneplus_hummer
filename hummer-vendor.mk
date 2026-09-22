@@ -910,8 +910,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/hummer/proprietary/vendor/etc/acdbdata/sun_mtp/acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/sun_mtp/acdb_cal.acdb \
     vendor/oneplus/hummer/proprietary/vendor/etc/display_apollo_list_AA590_P_3_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_apollo_list_AA590_P_3_A0020_dsc_cmd_mode_panel.xml \
     vendor/oneplus/hummer/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
-    vendor/oneplus/hummer/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    vendor/oneplus/hummer/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/oneplus/hummer/proprietary/vendor/etc/ltm_config_AA590_P_3_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AA590_P_3_A0020_dsc_cmd_mode_panel.xml \
     vendor/oneplus/hummer/proprietary/vendor/etc/sensors/config/json.lst:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/json.lst \
     vendor/oneplus/hummer/proprietary/vendor/etc/sensors/config/qsh_camera_common.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qsh_camera_common.json \
