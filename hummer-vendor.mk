@@ -1470,4 +1470,5 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.cammidasservice-V1-service
 
 PRODUCT_COPY_FILES += \
+    vendor/oneplus/hummer/proprietary/odm/etc/temperature_profile/sys_thermal_control_config.xml:$(TARGET_COPY_OUT_ODM)/etc/temperature_profile/sys_thermal_control_config.xml \
     vendor/oneplus/hummer/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
