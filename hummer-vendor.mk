@@ -6,14 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/hummer
 
 PRODUCT_COPY_FILES += \
-    vendor/oneplus/hummer/proprietary/odm/etc/PanelChaplin/3D-Lut_Center_P3.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/3D-Lut_Center_P3.txt \
-    vendor/oneplus/hummer/proprietary/odm/etc/PanelChaplin/3D-Lut_Center_sRGB.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/3D-Lut_Center_sRGB.txt \
-    vendor/oneplus/hummer/proprietary/odm/etc/PanelChaplin/3D-Lut_Enhance_P3.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/3D-Lut_Enhance_P3.txt \
-    vendor/oneplus/hummer/proprietary/odm/etc/PanelChaplin/3D-Lut_Enhance_sRGB.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/3D-Lut_Enhance_sRGB.txt \
-    vendor/oneplus/hummer/proprietary/odm/etc/PanelChaplin/3D-Lut_Stand_P3.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/3D-Lut_Stand_P3.txt \
-    vendor/oneplus/hummer/proprietary/odm/etc/PanelChaplin/3D-Lut_Stand_sRGB.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/3D-Lut_Stand_sRGB.txt \
-    vendor/oneplus/hummer/proprietary/odm/etc/PanelChaplin/3D-Lut_StandardMode_P3.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/3D-Lut_StandardMode_P3.txt \
-    vendor/oneplus/hummer/proprietary/odm/etc/PanelChaplin/3D-Lut_StandardMode_sRGB.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/3D-Lut_StandardMode_sRGB.txt \
     vendor/oneplus/hummer/proprietary/odm/etc/PanelChaplin/AA590_P_3_A0020_dsc_cmd_mode_panel_1_100nit.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA590_P_3_A0020_dsc_cmd_mode_panel_1_100nit.odf \
     vendor/oneplus/hummer/proprietary/odm/etc/PanelChaplin/AA590_P_3_A0020_dsc_cmd_mode_panel_1_2nit.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA590_P_3_A0020_dsc_cmd_mode_panel_1_2nit.odf \
     vendor/oneplus/hummer/proprietary/odm/etc/PanelChaplin/AA590_P_3_A0020_dsc_cmd_mode_panel_1_max.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA590_P_3_A0020_dsc_cmd_mode_panel_1_max.odf \
@@ -39,9 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/hummer/proprietary/odm/etc/PanelChaplin/AA590_P_3_A0020_dsc_cmd_mode_panel_Vivid_100nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA590_P_3_A0020_dsc_cmd_mode_panel_Vivid_100nits_pGC.txt \
     vendor/oneplus/hummer/proprietary/odm/etc/PanelChaplin/AA590_P_3_A0020_dsc_cmd_mode_panel_Vivid_2nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA590_P_3_A0020_dsc_cmd_mode_panel_Vivid_2nits_pGC.txt \
     vendor/oneplus/hummer/proprietary/odm/etc/PanelChaplin/AA590_P_3_A0020_dsc_cmd_mode_panel_Vivid_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA590_P_3_A0020_dsc_cmd_mode_panel_Vivid_pGC.txt \
-    vendor/oneplus/hummer/proprietary/odm/etc/PanelChaplin/AdjustValue:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AdjustValue \
-    vendor/oneplus/hummer/proprietary/odm/etc/PanelChaplin/Lut3D_311:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Lut3D_311 \
-    vendor/oneplus/hummer/proprietary/odm/etc/PanelChaplin/Lut3D_312:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Lut3D_312 \
     vendor/oneplus/hummer/proprietary/odm/etc/PanelChaplin/panelchaplin:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/panelchaplin \
     vendor/oneplus/hummer/proprietary/odm/etc/acdbdata/up_ve_enpuv5_ha.eai:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/up_ve_enpuv5_ha.eai \
     vendor/oneplus/hummer/proprietary/odm/etc/acdbdata/up_ve_enpuv5_hh.eai:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/up_ve_enpuv5_hh.eai \
