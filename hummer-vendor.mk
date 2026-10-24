@@ -752,6 +752,26 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/hummer/proprietary/odm/etc/sensor/config/pakala_mtp_pocket.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/pakala_mtp_pocket.json \
     vendor/oneplus/hummer/proprietary/odm/etc/sensor/config/sns_gyro_cal.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/sns_gyro_cal.json \
     vendor/oneplus/hummer/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
+    vendor/oneplus/hummer/proprietary/odm/etc/spatializer/HP_MOVIE_ANALOG.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_ANALOG.bin \
+    vendor/oneplus/hummer/proprietary/odm/etc/spatializer/HP_MOVIE_BLUETOOTH.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_BLUETOOTH.bin \
+    vendor/oneplus/hummer/proprietary/odm/etc/spatializer/HP_MOVIE_DIGITAL.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_DIGITAL.bin \
+    vendor/oneplus/hummer/proprietary/odm/etc/spatializer/HP_MOVIE_GALILEO.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_GALILEO.bin \
+    vendor/oneplus/hummer/proprietary/odm/etc/spatializer/HP_MUSIC_ANALOG.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_ANALOG.bin \
+    vendor/oneplus/hummer/proprietary/odm/etc/spatializer/HP_MUSIC_BLUETOOTH.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_BLUETOOTH.bin \
+    vendor/oneplus/hummer/proprietary/odm/etc/spatializer/HP_MUSIC_DIGITAL.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_DIGITAL.bin \
+    vendor/oneplus/hummer/proprietary/odm/etc/spatializer/HP_MUSIC_GALILEO.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_GALILEO.bin \
+    vendor/oneplus/hummer/proprietary/odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin \
+    vendor/oneplus/hummer/proprietary/odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin \
+    vendor/oneplus/hummer/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl1.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl1.bin \
+    vendor/oneplus/hummer/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl10.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl10.bin \
+    vendor/oneplus/hummer/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl2.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl2.bin \
+    vendor/oneplus/hummer/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl3.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl3.bin \
+    vendor/oneplus/hummer/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl4.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl4.bin \
+    vendor/oneplus/hummer/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl5.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl5.bin \
+    vendor/oneplus/hummer/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl6.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl6.bin \
+    vendor/oneplus/hummer/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl7.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl7.bin \
+    vendor/oneplus/hummer/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl8.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl8.bin \
+    vendor/oneplus/hummer/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl9.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl9.bin \
     vendor/oneplus/hummer/proprietary/odm/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_ODM)/etc/usecaseKvManager.xml \
     vendor/oneplus/hummer/proprietary/odm/etc/vibrator/809/def/effect_1.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/809/def/effect_1.bin \
     vendor/oneplus/hummer/proprietary/odm/etc/vibrator/809/def/effect_10.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/809/def/effect_10.bin \
@@ -912,6 +932,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/hummer/proprietary/odm/lib64/camera/libafCustomParam_Cam3.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libafCustomParam_Cam3.bin \
     vendor/oneplus/hummer/proprietary/odm/lib64/camera/libpdCustomParam_Cam0.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libpdCustomParam_Cam0.bin \
     vendor/oneplus/hummer/proprietary/odm/lib64/camera/revision.txt:$(TARGET_COPY_OUT_ODM)/lib64/camera/revision.txt \
+    vendor/oneplus/hummer/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/oneplus/hummer/proprietary/vendor/etc/acdbdata/sun_mtp/acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/sun_mtp/acdb_cal.acdb \
     vendor/oneplus/hummer/proprietary/vendor/etc/display_apollo_list_AA590_P_3_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_apollo_list_AA590_P_3_A0020_dsc_cmd_mode_panel.xml \
     vendor/oneplus/hummer/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
@@ -1351,6 +1372,7 @@ PRODUCT_PACKAGES += \
     libOplusPDCore \
     libOpo_awb \
     libPDParamParser \
+    libPanelChaplin \
     libRedeyeReduce \
     libSuperRaw \
     libUpScale \
@@ -1417,6 +1439,7 @@ PRODUCT_PACKAGES += \
     libmvgfusion \
     libocce3a \
     libocompression \
+    liboplus_audiox \
     liboplusdfx \
     libopluspdparam \
     liboprec_audrec \
@@ -1439,6 +1462,7 @@ PRODUCT_PACKAGES += \
     libwrapper_te \
     libyuvwrapper \
     libzlib \
+    libOplusSpatializerAidl \
     vendor.dolby.dvs-V1-ndk \
     vendor.oplus.hardware.camera.aon-service-impl \
     vendor.oplus.hardware.camera_rfi-V1-service-impl \
@@ -1454,6 +1478,7 @@ PRODUCT_PACKAGES += \
     manifest_oplus_cammidasservice_aidl.xml \
     manifest_oplus_sendextcamcmd.xml \
     vendor.oplus.camera.aon-impl.xml \
+    vintf_manifext_aidl_panelchaplin.xml \
     vendor.qti.camera.provider-service_64 \
     dvs-aidl-service \
     vendor.oplus.hardware.cammidasservice-V1-service
