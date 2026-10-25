@@ -711,6 +711,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/hummer/proprietary/odm/etc/horae/horae_target.conf:$(TARGET_COPY_OUT_ODM)/etc/horae/horae_target.conf \
     vendor/oneplus/hummer/proprietary/odm/etc/init/dvs-aidl-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/dvs-aidl-service.rc \
     vendor/oneplus/hummer/proprietary/odm/etc/init/init.camera_process.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_process.rc \
+    vendor/oneplus/hummer/proprietary/odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-touch-V2-service.rc \
     vendor/oneplus/hummer/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
     vendor/oneplus/hummer/proprietary/odm/etc/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
     vendor/oneplus/hummer/proprietary/odm/etc/oprec_audrec_params/oprec_audrec_config.txt:$(TARGET_COPY_OUT_ODM)/etc/oprec_audrec_params/oprec_audrec_config.txt \
@@ -1477,10 +1478,12 @@ PRODUCT_PACKAGES += \
     manifest_oplus_camera_rfi.xml \
     manifest_oplus_cammidasservice_aidl.xml \
     manifest_oplus_sendextcamcmd.xml \
+    manifest_touch_aidl.xml \
     vendor.oplus.camera.aon-impl.xml \
     vintf_manifext_aidl_panelchaplin.xml \
     vendor.qti.camera.provider-service_64 \
     dvs-aidl-service \
+    vendor-oplus-hardware-touch-V2-service \
     vendor.oplus.hardware.cammidasservice-V1-service
 
 PRODUCT_COPY_FILES += \
